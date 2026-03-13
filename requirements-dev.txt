@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────────────
+# QSIP — Development & Tooling Dependencies
+# Install: pip install -r requirements-dev.txt
+# ─────────────────────────────────────────────────────────────
+
+-r requirements.txt
+
+# ── Linting / Formatting ─────────────────────────────────────
+ruff==0.4.4
+black==24.4.2
+isort==5.13.2
+mypy==1.10.0
+pylint==3.2.2
+
+# ── Type Stubs ───────────────────────────────────────────────
+types-redis==4.6.0.20240417
+types-PyYAML==6.0.12.20240311
+
+# ── Testing Extras ───────────────────────────────────────────
+pytest-xdist==3.5.0              # Parallel test execution
+pytest-benchmark==4.0.0          # Performance benchmarks
+respx==0.21.1                    # HTTP mock for httpx
+time-machine==2.14.1             # Datetime mocking
+
+# ── Docs ─────────────────────────────────────────────────────
+mkdocs==1.6.0
+mkdocs-material==9.5.24
+mkdocstrings[python]==0.25.1
+
+# ── Notebooks (optional, for algorithm exploration) ──────────
+jupyter==1.0.0
+ipykernel==6.29.4
+matplotlib==3.9.0
+seaborn==0.13.2

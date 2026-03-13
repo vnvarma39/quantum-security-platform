@@ -1,0 +1,98 @@
+# ─── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.installed.cfg
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+MANIFEST
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+
+# ─── Virtual Environments ─────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ─── Node / Frontend ──────────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm/
+
+# ─── Coverage & Testing ───────────────────────────────────────
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+test-results/
+playwright-report/
+
+# ─── Environment & Secrets ────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.production
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# ─── IDE ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── Qiskit / Quantum ─────────────────────────────────────────
+*.qasm
+qiskit_cache/
+ibmq_jobs/
+
+# ─── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+*.pid
+
+# ─── Docker ───────────────────────────────────────────────────
+.docker/
+
+# ─── Build Artifacts ──────────────────────────────────────────
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.dylib
