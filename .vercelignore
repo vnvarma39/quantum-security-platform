@@ -1,0 +1,11 @@
+# Tell Vercel to completely ignore these —
+# prevents it from trying to install Python deps
+requirements.txt
+requirements-dev.txt
+backend/
+tests/
+docker-compose.yml
+Dockerfile.frontend
+Dockerfile.backend
+docs/
+*.py
